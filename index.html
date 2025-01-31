@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Online</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Playwrite+IN:wght@100..400&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#destaques">Livros em Destaque</a></li>
+        <li><a href="#catalogo">Catálogo de Livros</a></li>
+        <li><a href="#livromes">Livro do Mês</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <img src="./img/LOGO.png" alt="Logo">
+    <h2>Sua Biblioteca Virtual</h2
+    <br><br>
+  </section>
+
+  <section id="destaques">
+    <h1>Livros em Destaque</h1>
+    <div class="carousel-container">
+        <button id="prevBtn">❮</button>
+        <div class="carousel">
+            <div class="book"><img src="./img/bibliotecameianoite.jpg" alt="Biblioteca da Meia Noite"><p>Biblioteca da Meia Noite</p></div>
+            <div class="book"><img src="./img/empregada.jpg" alt="A empregada"><p>A empregada</p></div>
+            <div class="book"><img src="./img/melhorparte.jpg" alt="Minha Melhor Parte"><p>Minha Melhor Parte</p></div>
+            <div class="book"><img src="./img/pessoasnormais.jpg" alt="Pessoas Normais"><p>Pessoas Normais</p></div>
+            <div class="book"><img src="./img/tres.jpg" alt="Três"><p>Três</p></div>
+            <div class="book"><img src="./img/cleo.jpg" alt="Cleopátra e Frankenstein"><p>Cleopátra e Frankenstein</p></div>
+            <div class="book"><img src="./img/setemaridos.jpg" alt="Os sete maridos de Evelyn Hugo"><p>Os sete maridos de Evelyn Hugo</p></div>
+            <div class="book"><img src="./img/nemteconto.jpg" alt="Nem te conto"><p>Nem te Conto</p></div>
+        </div>
+        <button id="nextBtn">❯</button>
+    </div>
+    </div>
+  </section>
+
+  <section id="catalogo">
+    <h1>Catálogo de Livros</h1>
+    <input type="text" id="searchInput" placeholder="Pesquise por título">
+    <div id="bookList">
+    </div>
+  </section>
+
+  <section id="livromes">
+    <div class="book-container">
+        <h1>Livro do Mês</h1> 
+        <div class="book-card">
+            <img id="book-cover" src="./img/pessoasnormais.jpg" alt="Pessoas Normais">
+            <div class="book-info">
+                <h2 id="book-title">Pessoas Normais</h2>
+                <h3 id="book-author">Sally Rooney</h3>
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span id="rating-value">(5.0)</span>
+                </div>
+
+                <p id="book-description">
+                    Uma história única e envolvente sobre dois jovens que devem enfrentar a eletricidade do primeiro amor em meio às sutilezas das classes sociais e dos problemas familiares. Sally Rooney é a voz da geração millennial.<br><br>
+Na escola, no interior da Irlanda, Connell e Marianne fingem não se conhecer. Ele é a estrela do time de futebol, ela é solitária e preza por sua privacidade. Mas a mãe de Connell trabalha como empregada na casa dos pais de Marianne, e quando o garoto vai buscar a mãe depois do expediente, uma conexão estranha e indelével cresce entre os dois adolescentes – contudo, um deles está determinado a esconder a relação.<br><br>
+Um ano depois, ambos estão na universidade, em Dublin. Marianne encontrou seu lugar em um novo mundo enquanto Connell fica à margem, tímido e inseguro. Ao longo dos anos da graduação, os dois permanecem próximos, como linhas que se encontram e separam conforme as oportunidades da vida. Porém, enquanto Marianne se embrenha em um espiral de autodestruição e Connell começa a duvidar do sentido de suas escolhas, eles precisam entender até que ponto estão dispostos a ir para salvar um ao outro. Uma história de amor entre duas pessoas que tentam ficar separadas, mas descobrem que isso pode ser mais difícil do que tinham imaginado.<br><br>
+</p>
+                <a id="download-link" href="./ebook/Pessoas normais - Sally Rooney.epub" download>
+                    <button>epub</button>
+                </a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 BiblioTech. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
