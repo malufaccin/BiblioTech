@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { title: "Amar é assim", author: "Dolly Alderton", epub: "./ebook/Amar_e_assim.epub" },
         { title: "Amor em Roma", author: "Sarah Adams", epub: "./ebook/Amor_em_Roma.epub" },
         { title: "Apenas amigos", author: "Abby Jimenez", epub: "./ebook/Apenas amigos.epub" },
-        { title: "Cleópatra e Frankenstein", author: "Coco Mellors", epub: "./ebook/Cleópatra_e_Frankenstein.epub" },
+        { title: "Cleópatra e Frankenstein", author: "Coco Mellors", epub: "./ebook/Cleopatra_e_Frankenstein.epub" },
         { title: "Em agosto nos vemos", author: "Gabriel García Márquez", epub: "./ebook/Em_agosto_nos_vemos.epub" },
         { title: "Flores Para Algernon", author: "Daniel Keys", epub: "./ebook/Flores_Para_Algernon.epub" },
         { title: "Leitura de Verão", author: "Emily Henry", epub: "./ebook/Leitura_de_Verão.epub" },
